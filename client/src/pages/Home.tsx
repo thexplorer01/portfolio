@@ -256,7 +256,8 @@ export default function Home() {
             <p className="hero-lede">I'm Chinmay Raut, a Computer Science & Data Science student exploring Python, data, AI, and the web through small experiments and unfinished ideas.</p>
             <div className="hero-actions">
               <a className="button button-primary" href="#projects">View my work <ArrowDown size={16} /></a>
-              <a className="button button-quiet" href="/manus-storage/Chinmay_Raut_Resume_fc9726ee.pdf" download>Download resume <Download size={16} /></a>
+              <a className="button button-quiet" href="https://drive.google.com/uc?export=download&id=15EwjGC2s66v1vLfPai8y6wBhLbR04s5n"
+ download>Download resume <Download size={16} /></a>
               <a className="button button-quiet" href="#contact">Let's connect <ArrowUpRight size={16} /></a>
             </div>
             <div className="hero-meta"><span>Semester 7</span><span className="meta-separator">/</span><span>Graduating 2027</span><span className="meta-separator">/</span><span>Still learning</span></div>
@@ -344,7 +345,8 @@ export default function Home() {
       </main>
 
       <footer className="site-footer"><div className="section-wrap footer-inner"><div><a className="brand" href="#top"><span className="brand-mark">CR</span><span>chinmay raut</span></a><p>Computer Science & Data Science student</p></div><div className="footer-links"><a href={githubUrl} target="_blank" rel="noreferrer"><Github size={15} /> GitHub</a><a href={linkedinUrl} target="_blank" rel="noreferrer"><Linkedin size={15} /> LinkedIn</a><a href="mailto:chinmay.raut.work@gmail.com"><Mail size={15} /> Email</a></div><p className="footer-note">Built while learning.<br /><span className="mono">© {new Date().getFullYear()} CR</span></p></div></footer>
-      <a className="resume-float" href="/manus-storage/Chinmay_Raut_Resume_fc9726ee.pdf" download><FileText size={15} /> Resume <Download size={14} /></a>
+      <a className="resume-float" href="https://drive.google.com/uc?export=download&id=15EwjGC2s66v1vLfPai8y6wBhLbR04s5n"
+ download><FileText size={15} /> Resume <Download size={14} /></a>
     </div>
   );
 }
